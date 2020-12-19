@@ -4,7 +4,7 @@ defmodule Secret do
   """
 
   defp sender() do
-    Application.get_env(:secret, "SIGNING_SECRET")
+    Application.get_env(:secret, :signing_secret)
     |> SimpleSecrets.init()
   end
 
