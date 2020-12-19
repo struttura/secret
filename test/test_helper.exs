@@ -1,3 +1,3 @@
 ExUnit.start()
 
-System.put_env("SIGNING_SECRET", Secret.generate())
+Application.put_env(:secret, "SIGNING_SECRET", Secret.generate())
