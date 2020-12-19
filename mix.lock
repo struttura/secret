@@ -6,5 +6,5 @@
   "msgpax": {:hex, :msgpax, "2.0.0", "5f60d2e03b1f7a90da7620ad52d386dbd173490429d53d70c3d33630aebf3e9f", [:mix], [{:plug, "~> 1.0", [hex: :plug, repo: "hexpm", optional: true]}], "hexpm", "2c4c7a075c59c91706112efc74817f1c8741c595178052c9715f410cf460517e"},
   "nimble_parsec": {:hex, :nimble_parsec, "1.1.0", "3a6fca1550363552e54c216debb6a9e95bd8d32348938e13de5eda962c0d7f89", [:mix], [], "hexpm", "08eb32d66b706e913ff748f11694b17981c0b04a33ef470e33e11b3d3ac8f54b"},
   "pkcs7": {:hex, :pkcs7, "1.0.2", "cd9d50177bfbd3fd80e8bc79d2941d3b2968b64bd1151ef3e54d8c4b2605ed7e", [:mix], [], "hexpm", "0e4faa65411e204b7952712d58f657335109ecbb24cf79163dc96458ba8d6518"},
-  "simple_secrets": {:git, "https://github.com/camshaft/simple_secrets_ex.git", "c9f6d4f990f33b37539e2519e5b497b446210ace", [ref: "c9f6d4f990f33b37539e2519e5b497b446210ace"]},
+  "simple_secrets": {:hex, :simple_secrets, "1.0.1", "cbbe75274ac6b3f671c0be88a0147cf684e39f7b06ed83d35ceffc85fc4d3bff", [:mix], [{:msgpax, "~> 2.0.0", [hex: :msgpax, repo: "hexpm", optional: false]}, {:pkcs7, "~> 1.0.2", [hex: :pkcs7, repo: "hexpm", optional: false]}], "hexpm", "650986c1bd8edf8a91c82871492add462f921e06dffa10b25d3b26c6786ffdf4"},
 }

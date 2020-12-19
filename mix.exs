@@ -19,8 +19,7 @@ defmodule Secret.MixProject do
 
   defp deps do
     [
-      # {:simple_secrets, "~> 1.0"},
-      {:simple_secrets, git: "https://github.com/camshaft/simple_secrets_ex.git", ref: "c9f6d4f990f33b37539e2519e5b497b446210ace"},
+      {:simple_secrets, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
